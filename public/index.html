@@ -6,6 +6,27 @@
     <meta charset="UTF-8">
     <title>ALAGA ENGLISH LEARNING HUB</title>
     <link rel="stylesheet" href="style.css"> 
+
+   <!-- 1. Firebase SDK நூலகங்கள் -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+
+
+   <script>            
+        const firebaseConfig = {
+        apiKey: "AIzaSyAvQZE0WYa0IxMD2u0NwgnjobRkWTBh2GE",
+        authDomain: "mychannel-6f958.firebaseapp.com",
+        databaseURL: "https://mychannel-6f958-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "mychannel-6f958",
+        storageBucket: "mychannel-6f958.firebasestorage.app",
+        messagingSenderId: "685648696751",
+        appId: "1:685648696751:web:e94197e6c653fe7a4b0b5a",
+        measurementId: "G-G3P0WK6480"
+        };
+
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+    </script>
 </head>
 
 
